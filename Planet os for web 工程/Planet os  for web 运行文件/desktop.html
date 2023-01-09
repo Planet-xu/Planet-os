@@ -205,30 +205,6 @@
 									<a class="a" title="添加到桌面 (不可用)"><i class="bi bi-menu-app"></i></a>
 									<a class="a" title="删除" onclick="$('.wg.calc>.titbar>.menu').removeClass('show');widgets.widgets.remove('calc')"><i class="bi bi-trash"></i></a>
 								</div>
-				</div>
-	<script>
-		// $('').add()
-	</script>
-	<div id="widgets">
-		<div class="widgets">
-			<div class="bar">
-				<p class="tit">小组件</p>
-				<button onclick="widgets.widgets.add('calc')" class="a act btn btn-icon big" style="background: linear-gradient(100deg, #ad6ecaee, #3b91d8ee);color:#fff;"><i class="bi bi-plus-lg"></i></button>
-			</div>
-			<div class="content">
-				<div class="template">
-					<div class="calc">
-						<div class="wg calc">
-							<div class="titbar">
-								<a title="更多" class="a more" onclick="$('.wg.calc>.titbar>.menu').toggleClass('show')"><i class="bi bi-three-dots"></i></a>
-								<div class="menu">
-									<a title="打开应用" class="a img" onclick="$('.wg.calc>.titbar>.menu').removeClass('show');hide_widgets();openapp('calc')">
-										<img src="icon/calc.png">
-									</a>
-									<a class="a" title="移动 (不可用)"><i class="bi bi-arrows-move"></i></a>
-									<a class="a" title="添加到桌面 (不可用)"><i class="bi bi-menu-app"></i></a>
-									<a class="a" title="删除" onclick="$('.wg.calc>.titbar>.menu').removeClass('show');widgets.widgets.remove('calc')"><i class="bi bi-trash"></i></a>
-								</div>
 							</div>
 							<div class="content">
 								<input value="" onkeydown="if(event.keyCode == 13)$('*:not(.template)>*>.wg.calc>.content>.keyb>.ans').click()">
@@ -702,12 +678,6 @@
 			<div class="cnt update" style="display: none;">
 				<h1 class="tit"><span></span>更新记录</h1>
 				<div style="margin-left: 20px;">
-					<details><summary><span>v3.4.3</span> 小组件修复</summary>
-						<p/>&emsp;&emsp;-删除旧新闻以解决新新闻闪烁的问题</p>
-					</details>
-					<details><summary><span>v3.4.2</span> 小组件</summary>
-						<p>&emsp;&emsp;-新增”微软将重拾Cortana“新闻<p>	
-					</details>
 					<details><summary><span>v3.4.1</span> 移动端适配</summary>
 						<p>&emsp;&emsp;-适配了移动端的双(改成单击)<br>
 						&emsp;&emsp;-适配了移动端的拖动窗口<br>
